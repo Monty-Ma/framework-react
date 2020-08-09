@@ -10,6 +10,7 @@ export class App extends Component<any, any> {
         console.log(this.props);
     }
 
+
     render() {
         return <div className="App">
             Appdfdf
@@ -18,6 +19,9 @@ export class App extends Component<any, any> {
                 你好，世界
             </Button>
         </div>;
+    }
+    componentDidMount(...did:any){
+        console.log(did)
     }
 }
 
